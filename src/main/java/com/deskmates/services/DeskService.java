@@ -1,12 +1,11 @@
 package com.deskmates.services;
 
-import com.deskmate.dbps.dao.DeskDao;
-import com.deskmate.dbps.exception.EntityNotFoundException;
-import com.deskmate.dbps.exception.ValidationException;
-import com.deskmate.dbps.model.Desk;
-import com.deskmate.dbps.util.ValidationUtil;
 
 import java.util.List;
+
+import com.deskmate.dao.DeskDao;
+import com.deskmate.exception.ValidationException;
+import com.deskmate.model.Desk;
 
 public class DeskService {
     private final DeskDao deskDao;

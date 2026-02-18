@@ -4,8 +4,10 @@ package com.deskmates.services;
 import java.util.List;
 
 import com.deskmate.dao.DeskDao;
+import com.deskmate.exception.EntityNotFoundException;
 import com.deskmate.exception.ValidationException;
 import com.deskmate.model.Desk;
+import com.deskmate.utils.ValidationUtil;
 
 public class DeskService {
     private final DeskDao deskDao;

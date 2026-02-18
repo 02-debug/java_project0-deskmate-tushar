@@ -13,6 +13,8 @@ import com.deskmate.exception.EntityNotFoundException;
 import com.deskmate.exception.ValidationException;
 import com.deskmate.utils.InputUtil;
 
+// this is app class inside root package
+
 public class App {
     private static final Logger log = LogManager.getLogger(App.class);
 
